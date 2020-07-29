@@ -15,7 +15,7 @@
 </template>
 <style>
 .text4{
-  font-family:courier,arial,helvetica;
+  font-family:courier,garamond,helvetica;
   color:white;
   height:40px;
   align:center;
