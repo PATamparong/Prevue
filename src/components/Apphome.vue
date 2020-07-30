@@ -7,7 +7,7 @@
             <v-btn color="primary" :height="100" :width="100"  to="/dashboard" fab dark>
               <v-icon>mdi-account-circle</v-icon>
             </v-btn>
-            <div class="text3" headline>Precious Angel Tamparong</div>
+            <div class="text3" headline><h1>Precious Angel Tamparong</h1></div>
             <div class="text3">preciousangel.tamparong@student.passerellesnumeriques.org</div>
         </div>
   </v-parallax>
