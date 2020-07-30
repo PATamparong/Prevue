@@ -1,6 +1,6 @@
 <template>
-  <div>
-  <v-card>
+<div>
+<v-card>
     <v-toolbar dark color="primary">
         <v-btn icon dark to="/dashboard">
         <v-icon>mdi-close</v-icon>
@@ -31,10 +31,8 @@
     </v-list>
     <v-divider></v-divider>
 </v-card>
-  </div>
+</div>
 </template>
-<style>
-</style>
 <script>
   export default {
     data () {
