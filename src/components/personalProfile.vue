@@ -1,7 +1,7 @@
 <template>
   <div>
   <v-card>
-    <v-toolbar dark color="primary">
+    <v-toolbar dark color="gray">
         <v-btn icon dark to="/dashboard">
         <v-icon>mdi-close</v-icon>
         </v-btn>
