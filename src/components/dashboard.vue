@@ -41,7 +41,7 @@
             </v-list-item-action>
             <v-list-item-content>
               <v-list-item-title>
-              <h1>experience</h1>
+              <h2>experience</h2>
               </v-list-item-title>
             </v-list-item-content>
           </v-list-item>
