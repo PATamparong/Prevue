@@ -21,7 +21,7 @@ Vue.use(VueRouter)
   },
   {
     path: '/dashboard',
-    name: 'personalProfile',
+    name: 'dashboard',
     // component: personalProfile
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route

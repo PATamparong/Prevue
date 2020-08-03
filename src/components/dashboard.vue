@@ -148,7 +148,7 @@
 }
 .article{
   grid-area:article;
-  background-image: linear-gradient( #F5F5F5 0%, #A9A9A9 100%);
+  background-image: radial-gradient(circle,white,#D3D3D3,#A9A9A9);
 }
 </style>
 <script>
