@@ -8,27 +8,24 @@
         <v-toolbar-title>Back</v-toolbar-title>
         <v-spacer></v-spacer>
     </v-toolbar>
-    <v-list three-line subheader>
-        <v-subheader>Personal Information</v-subheader>
-        <v-list-item>
-        <v-list-item-content>
-            <v-list-item-title>Name</v-list-item-title>
-            <v-list-item-subtitle>Precious Angel Tamparong</v-list-item-subtitle>
-        </v-list-item-content>
-        </v-list-item>
-        <v-list-item>
-        <v-list-item-content>
-            <v-list-item-title>Current Address</v-list-item-title>
-            <v-list-item-subtitle>San Alberto Carmelite Formation Center, Talamban, Cebu City </v-list-item-subtitle>
-        </v-list-item-content>
-        </v-list-item>
-        <v-list-item>
-        <v-list-item-content>
-            <v-list-item-title>Permanent Address</v-list-item-title>
-            <v-list-item-subtitle>Inansagan, Campalanas, Lazi, Siquijor</v-list-item-subtitle>
-        </v-list-item-content>
-        </v-list-item>
-    </v-list>
+    <v-card>
+    <v-card-title>
+      Skills
+      <v-spacer></v-spacer>
+      <v-text-field
+        v-model="search"
+        append-icon="mdi-magnify"
+        label="Search"
+        single-line
+        hide-details
+      ></v-text-field>
+    </v-card-title>
+    <v-data-table
+      :headers="headers"
+      :items="desserts"
+      :search="search"
+    ></v-data-table>
+  </v-card>
     <v-divider></v-divider>
 </v-card>
 </div>
@@ -37,6 +34,41 @@
   export default {
     data () {
       return {
+          search: '',
+        headers: [
+          {
+            text: 'Area',
+            align: 'start',
+            sortable: false,
+            value: 'name',
+          },
+          { text: 'Mother Tongue', value: 'm_tongue' },
+          { text: 'Second Language', value: 'l_tongue' },
+          { text: 'Other Language', value: 'o_tongue' },
+        ],
+        desserts: [
+          {
+            name: 'Problem Solving',
+          },
+          {
+            name: 'Leadership and teamwork',
+          },
+          {
+            name: 'Communication Skills',
+          },
+          {
+            name: 'Java Programming',
+          },
+          {
+            name: 'Web Development',
+          },
+          {
+            name: 'Languages ',
+            m_tongue: 'Bisaya',
+            l_tongue: 'Filipino',
+            o_tongue: 'English',
+          },
+        ],
       }
     },
     // methods:{
