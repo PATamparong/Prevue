@@ -4,8 +4,7 @@ import Home from '../views/Home.vue'
 import dashboard from '../components/dashboard.vue'
 import experience from '../components/experience.vue'
 import personalProfile from '../components/personalProfile.vue'
-import reference from '../components/reference.vue'
-import message from '../components/message.vue'
+import contact from '../components/contact.vue'
 import skills from '../components/skills.vue'
 import resume from '../components/resume.vue'
 
@@ -39,14 +38,9 @@ Vue.use(VueRouter)
     component: skills
   },
   {
-    path: '/reference',
-    name: 'reference',
-    component: reference
-  },
-  {
-    path: '/message',
-    name: 'message',
-    component: message
+    path: '/contact',
+    name: 'contact',
+    component: contact
   },
   {
     path: '/profile',

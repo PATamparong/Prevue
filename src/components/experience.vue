@@ -5,7 +5,7 @@
         <v-btn icon dark to="/dashboard">
           <v-icon>mdi-close</v-icon>
         </v-btn>
-        <v-toolbar-title>Back</v-toolbar-title>
+        <v-toolbar-title>Experience</v-toolbar-title>
         <v-spacer></v-spacer>
       </v-toolbar>
       <v-timeline class="ma-12">
